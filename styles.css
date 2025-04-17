@@ -1,9 +1,11 @@
 
 .manito-saludo {
+    flex-wrap: nowrap;
     display: inline-block;
     margin-left: 8px; 
     animation: saludar 2s infinite ease-in-out;
     transform-origin: bottom center;
+
 }
 
 @keyframes saludar {
@@ -37,7 +39,7 @@ body {
 h1 {
     text-align: center;
     color: #333;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 form {
