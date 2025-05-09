@@ -37,15 +37,15 @@
             </select>
             <p>Selecciona tu género:</p>
             <label>
-                <input type="radio" id="genero" name="genero" value="masculino" required>
+                <input type="radio" id="genero-masculino" name="genero" value="masculino" required>
                 Masculino
             </label>
             <label>
-                <input type="radio"  id="genero" name="genero" value="femenino" required>
+                <input type="radio"  id="genero-femenino" name="genero" value="femenino" required>
                 Femenino
             </label>
             <label>
-                <input type="radio" id="genero" name="genero" value="otro" required>
+                <input type="radio" id="genero-otro" name="genero" value="otro" required>
                 Otro
             </label>
 
@@ -57,8 +57,8 @@
             <label for="danzas"><input type="checkbox" id="danzas" name="intereses" value="Danzas"> Danzas</label>
 
             <label for="color">Elige tu color favorito:</label>
-            <input type="color" id="color" name="color">
-            <div id="preview"></div>
+            <input type="color" id="color" name="color" required>
+            <div id="preview"></div> 
             
             <label for="comentarios">Comentarios:</label>
             <textarea id="comentarios" name="comentarios" rows="4" placeholder="Escribe tus comentarios aquí"></textarea>
